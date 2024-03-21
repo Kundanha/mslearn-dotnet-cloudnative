@@ -16,11 +16,9 @@ variables:
   project: '**/Kundanha.mslearn-dotnet-cloudnative.csproj'
 
 steps:
-    - 
 - task: NuGetToolInstaller@1
   name: 'NuGetToolInstaller'
   displayName: 'NuGet tool installer'
-
 
 - task: NuGetCommand@2
   name: 'NuGetRestore'
